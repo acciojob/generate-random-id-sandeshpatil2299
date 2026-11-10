@@ -3,7 +3,7 @@ function makeid(l) {
 	let alphas = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 let result = "";
 
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < l; i++) {
     result += alphas[parseInt(Math.random() * alphas.length)];
 }
 
